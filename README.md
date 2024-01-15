@@ -15,14 +15,14 @@ GET /api/:date
 
 ### Example
 
-#### Request
+#### Request / Response
 
 ```bash
-curl https://your-app-url/api/2023-12-31
+curl https://your-app-url/api/2015-12-25
 
 {
-  "unix": 1640995200000,
-  "utc": "Thu, 31 Dec 2023 00:00:00 GMT"
+  "unix": 1451001600000,
+  "utc": "Fri, 25 Dec 2015 00:00:00 GMT"
 }
 
 
